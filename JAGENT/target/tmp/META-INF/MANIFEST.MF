@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: JAGENT
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: root
+Implementation-Vendor-Id: com.springboot.jagent
+Spring-Boot-Version: 2.1.1.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.springboot.jagent.main.Application
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_252
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/JAGENT
+

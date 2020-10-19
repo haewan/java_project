@@ -1,0 +1,3 @@
+[2020-07-17 10:45:09,104 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 6452 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-07-17 10:45:09,109 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-17 10:45:11,658 INFO c.s.j.m.Application.logStarted] Started Application in 2.97 seconds (JVM running for 3.731)

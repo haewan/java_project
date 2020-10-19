@@ -1,0 +1,127 @@
+[2020-09-22 08:30:54,506 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 12317 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-09-22 08:30:54,510 DEBUG c.s.j.m.Application.logStarting] Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+[2020-09-22 08:30:54,513 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-09-22 08:32:29,391 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 12379 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-09-22 08:32:29,395 DEBUG c.s.j.m.Application.logStarting] Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+[2020-09-22 08:32:29,398 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-09-22 08:41:37,460 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 12607 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-09-22 08:41:37,465 DEBUG c.s.j.m.Application.logStarting] Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+[2020-09-22 08:41:37,468 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-09-22 08:41:39,869 INFO c.s.j.m.Application.logStarted] Started Application in 2.899 seconds (JVM running for 3.613)
+[2020-09-22 08:56:41,631 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh
+[2020-09-22 08:56:41,638 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:56:41,641 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:56:41,696 INFO c.s.j.u.Command.run] exitCode:0
+[2020-09-22 08:56:41,697 INFO c.s.j.u.Command.run] result:test        
+[2020-09-22 08:56:41,697 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-09-22 08:56:41,697 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-09-22 08:56:54,113 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:56:54,114 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:56:54,116 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:56:54,167 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:56:54,169 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:56:54,170 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:56:54,171 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 08:57:09,836 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:57:09,837 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:57:09,838 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:57:09,889 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:57:09,890 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:57:09,890 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:57:09,891 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 08:57:22,428 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:57:22,428 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:57:22,429 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:57:22,479 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:57:22,480 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:57:22,481 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:57:22,482 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 08:57:35,549 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:57:35,549 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:57:35,550 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:57:35,600 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:57:35,602 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:57:35,602 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:57:35,603 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 08:57:40,576 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:57:40,576 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:57:40,577 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:57:40,627 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:57:40,628 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:57:40,629 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:57:40,630 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 08:57:55,218 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:57:55,218 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:57:55,218 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:57:55,269 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:57:55,270 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:57:55,271 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:57:55,272 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 08:58:04,496 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:./test.sh 1111
+[2020-09-22 08:58:04,497 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 08:58:04,498 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 08:58:04,549 INFO c.s.j.u.Command.run] exitCode:-559038737
+[2020-09-22 08:58:04,551 INFO c.s.j.u.Command.run] result:
+[2020-09-22 08:58:04,551 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-09-22 08:58:04,552 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-09-22 09:23:10,741 ERROR c.s.j.u.Command.run] ./test.sh 1111
+[2020-09-22 09:23:31,943 ERROR c.s.j.u.Command.run] test.sh 1111
+[2020-09-22 09:23:40,254 ERROR c.s.j.u.Command.run] test.sh 1111
+[2020-09-22 10:09:41,026 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 1
+[2020-09-22 10:10:19,451 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 1
+[2020-09-22 10:11:11,401 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 1
+[2020-09-22 10:11:16,764 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:13:47,219 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:13:52,197 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:24:56,165 ERROR c.s.j.u.Command.run] 2
+[2020-09-22 10:24:56,172 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:25:05,091 ERROR c.s.j.u.Command.run] 2
+[2020-09-22 10:25:05,092 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:26:54,166 ERROR c.s.j.u.Command.run] 2
+[2020-09-22 10:26:54,170 ERROR c.s.j.u.Command.run] test.sh
+[2020-09-22 10:26:54,173 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:27:20,955 ERROR c.s.j.u.Command.run] 1
+[2020-09-22 10:27:20,956 ERROR c.s.j.u.Command.run] test.sh
+[2020-09-22 10:31:34,672 ERROR c.s.j.u.Command.run] 1
+[2020-09-22 10:31:41,973 ERROR c.s.j.u.Command.run] 1
+[2020-09-22 10:31:43,871 ERROR c.s.j.u.Command.run] 1
+[2020-09-22 10:31:46,964 ERROR c.s.j.u.Command.run] 2
+[2020-09-22 10:31:46,965 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:31:53,131 ERROR c.s.j.u.Command.run] 2
+[2020-09-22 10:31:53,131 ERROR c.s.j.u.Command.run] java.lang.ArrayIndexOutOfBoundsException: 2
+[2020-09-22 10:54:14,054 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 18979 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-09-22 10:54:14,060 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-09-22 10:54:16,439 INFO c.s.j.m.Application.logStarted] Started Application in 2.871 seconds (JVM running for 3.574)
+[2020-09-22 10:54:21,671 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:test.sh 2222
+[2020-09-22 10:54:21,676 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 10:54:21,678 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 10:54:21,680 INFO c.s.j.u.Command.run] Paramstest.sh
+[2020-09-22 10:54:21,681 INFO c.s.j.u.Command.run] Params2222
+[2020-09-22 10:54:21,734 INFO c.s.j.u.Command.run] exitCode:0
+[2020-09-22 10:54:21,735 INFO c.s.j.u.Command.run] result:test    2222    
+[2020-09-22 10:54:21,735 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-09-22 10:54:21,736 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-09-22 10:57:13,965 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 19106 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-09-22 10:57:13,970 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-09-22 10:57:16,268 INFO c.s.j.m.Application.logStarted] Started Application in 2.733 seconds (JVM running for 3.472)
+[2020-09-22 10:57:34,607 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:test.sh 2222
+[2020-09-22 10:57:34,612 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 10:57:34,614 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 10:57:34,617 INFO c.s.j.u.Command.run] Params[0test.sh]
+[2020-09-22 10:57:34,618 INFO c.s.j.u.Command.run] Params[1]:2222
+[2020-09-22 10:57:34,671 INFO c.s.j.u.Command.run] exitCode:0
+[2020-09-22 10:57:34,671 INFO c.s.j.u.Command.run] result:test    2222    
+[2020-09-22 10:57:34,672 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-09-22 10:57:34,672 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-09-22 10:59:32,374 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 19311 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-09-22 10:59:32,377 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-09-22 10:59:34,698 INFO c.s.j.m.Application.logStarted] Started Application in 2.73 seconds (JVM running for 3.486)
+[2020-09-22 10:59:40,160 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:test.sh 2222
+[2020-09-22 10:59:40,165 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-09-22 10:59:40,168 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-09-22 10:59:40,170 INFO c.s.j.u.Command.run] Params[0]: test.sh
+[2020-09-22 10:59:40,172 INFO c.s.j.u.Command.run] Params[1]: 2222
+[2020-09-22 10:59:40,224 INFO c.s.j.u.Command.run] exitCode:0
+[2020-09-22 10:59:40,224 INFO c.s.j.u.Command.run] result:test    2222    
+[2020-09-22 10:59:40,225 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-09-22 10:59:40,225 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success

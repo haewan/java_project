@@ -1,0 +1,2 @@
+[2020-07-11 14:29:52,021 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 3931 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-11 14:29:52,026 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default

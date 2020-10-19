@@ -1,0 +1,166 @@
+[2020-07-09 17:30:21,990 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 19838 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 17:30:21,995 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 17:30:25,478 INFO c.s.j.m.Application.logStarted] Started Application in 3.961 seconds (JVM running for 4.703)
+[2020-07-09 17:31:36,747 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 17:31:36,753 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 17:31:36,755 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin 
+[2020-07-09 17:31:36,757 ERROR c.s.j.u.Command.run] java.io.IOException: /maum/nexus_nlp/docker-build-example/docker-compose/bin  doesn't exist.
+[2020-07-09 17:31:36,758 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-07-09 17:31:36,758 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-07-09 17:32:34,669 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 17:32:34,670 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 17:32:34,670 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin 
+[2020-07-09 17:32:34,670 ERROR c.s.j.u.Command.run] java.io.IOException: /maum/nexus_nlp/docker-build-example/docker-compose/bin  doesn't exist.
+[2020-07-09 17:32:34,670 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: false
+[2020-07-09 17:32:34,671 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute fail
+[2020-07-09 17:34:46,082 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 19998 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 17:34:46,088 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 17:34:49,373 INFO c.s.j.m.Application.logStarted] Started Application in 3.826 seconds (JVM running for 4.562)
+[2020-07-09 17:34:58,839 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 17:34:58,844 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 17:34:58,846 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin 
+[2020-07-09 17:35:06,619 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 17:35:06,621 INFO c.s.j.u.Command.run] result:Stopping flask_app ... 
+[1A[2KStopping flask_app ... [32mdone[0m[1BRemoving flask_app ... 
+[1A[2KRemoving flask_app ... [32mdone[0m[1BGoing to remove flask_app
+Pulling flask ... 
+[1A[2KPulling flask ... [31merror[0m[1B
+ERROR: for flask  Get http://localhost:6000/v2/: dial tcp 127.0.0.1:6000: connect: connection refused
+Get http://localhost:6000/v2/: dial tcp 127.0.0.1:6000: connect: connection refused
+Creating flask_app ... 
+[1A[2KCreating flask_app ... [32mdone[0m[1B  Name                 Command               State               Ports             
+-----------------------------------------------------------------------------------
+flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp
+
+[2020-07-09 17:35:06,622 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 17:35:06,624 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 20:41:36,688 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 24203 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 20:41:36,704 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 20:41:40,131 INFO c.s.j.m.Application.logStarted] Started Application in 3.974 seconds (JVM running for 4.838)
+[2020-07-09 20:42:31,123 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 20:42:31,127 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 20:42:31,129 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 20:42:38,919 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 20:42:38,920 INFO c.s.j.u.Command.run] result:Stopping flask_app ... 
+[1A[2KStopping flask_app ... [32mdone[0m[1BRemoving flask_app ... 
+[1A[2KRemoving flask_app ... [32mdone[0m[1BGoing to remove flask_app
+Pulling flask ... 
+[1A[2KPulling flask ... [32mdone[0m[1BCreating flask_app ... 
+[1A[2KCreating flask_app ... [32mdone[0m[1B  Name                 Command               State               Ports             
+-----------------------------------------------------------------------------------
+flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp
+
+[2020-07-09 20:42:38,920 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 20:42:38,920 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 20:48:31,448 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 24711 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 20:48:31,453 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 20:48:34,344 INFO c.s.j.m.Application.logStarted] Started Application in 3.356 seconds (JVM running for 4.074)
+[2020-07-09 20:48:55,069 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 20:48:55,073 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 20:48:55,074 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 20:49:02,348 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 20:49:02,351 ERROR c.s.j.u.Command.run] java.util.regex.PatternSyntaxException: Unclosed character class near index 24
+ \r\n\u001B[1A\u001B[2K\r
+                        ^
+[2020-07-09 20:49:02,352 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 20:49:02,353 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 20:50:29,259 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 25082 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 20:50:29,264 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 20:50:32,243 INFO c.s.j.m.Application.logStarted] Started Application in 3.463 seconds (JVM running for 4.221)
+[2020-07-09 20:51:12,548 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 20:51:12,554 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 20:51:12,556 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 20:51:20,182 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 20:51:20,184 ERROR c.s.j.u.Command.run] java.util.regex.PatternSyntaxException: Unclosed character class near index 22
+\n\u001B[1A\u001B[2K\r
+                      ^
+[2020-07-09 20:51:20,185 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 20:51:20,186 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 21:02:45,717 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 26678 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 21:02:45,728 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 21:02:48,810 INFO c.s.j.m.Application.logStarted] Started Application in 3.575 seconds (JVM running for 4.313)
+[2020-07-09 21:02:53,345 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 21:02:53,349 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 21:02:53,351 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 21:03:01,027 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 21:03:01,029 INFO c.s.j.u.Command.run] result:Stopping flask_app ... 
+Stopping flask_app ... done
+Removing flask_app ... 
+Removing flask_app ... done
+Going to remove flask_app
+Pulling flask ... 
+Pulling flask ... done
+Creating flask_app ... 
+Creating flask_app ... done
+  Name                 Command               State               Ports             
+-----------------------------------------------------------------------------------
+flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp
+
+[2020-07-09 21:03:01,030 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 21:03:01,031 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 21:10:18,138 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 27420 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 21:10:18,142 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 21:10:23,088 INFO c.s.j.m.Application.logStarted] Started Application in 5.508 seconds (JVM running for 6.346)
+[2020-07-09 21:10:28,433 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 21:10:28,438 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 21:10:28,440 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 21:10:39,432 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 21:10:39,433 INFO c.s.j.u.Command.run] result:Stopping flask_app ... 
+Stopping flask_app ... done
+Removing flask_app ... 
+Removing flask_app ... done
+Going to remove flask_app
+Pulling flask ... 
+Pulling flask ... done
+Creating flask_app ... 
+Creating flask_app ... done
+  Name                 Command               State               Ports             
+-----------------------------------------------------------------------------------
+flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp
+
+[2020-07-09 21:10:39,433 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 21:10:39,434 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 21:30:46,585 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 28727 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 21:30:46,590 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 21:30:49,903 INFO c.s.j.m.Application.logStarted] Started Application in 3.807 seconds (JVM running for 4.638)
+[2020-07-09 21:31:06,767 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 21:31:06,771 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 21:31:06,772 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 21:31:17,207 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 21:31:17,208 INFO c.s.j.u.Command.run] result:Stopping flask_app ... 
+Stopping flask_app ... done
+Removing flask_app ... 
+Removing flask_app ... done
+Going to remove flask_app
+Pulling flask ... 
+Pulling flask ... done
+Creating flask_app ... 
+Creating flask_app ... done
+  Name                 Command               State               Ports             
+-----------------------------------------------------------------------------------
+flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp
+
+[2020-07-09 21:31:17,208 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 21:31:17,209 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-09 21:32:44,713 INFO c.s.j.m.Application.logStarting] Starting Application on haewan-ThinkPad-S2 with PID 29194 (/root/IdeaProjects/JAGENT/target/classes started by root in /root/IdeaProjects/JAGENT)
+[2020-07-09 21:32:44,718 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-09 21:32:47,667 INFO c.s.j.m.Application.logStarted] Started Application in 3.458 seconds (JVM running for 4.169)
+[2020-07-09 21:33:03,196 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-09 21:33:03,200 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-09 21:33:03,204 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-09 21:33:12,405 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-09 21:33:12,406 INFO c.s.j.u.Command.run] result:Stopping flask_app ... 
+Stopping flask_app ... done
+Removing flask_app ... 
+Removing flask_app ... done
+Going to remove flask_app
+Pulling flask ... 
+Pulling flask ... done
+Creating flask_app ... 
+Creating flask_app ... done
+  Name                 Command               State               Ports             
+-----------------------------------------------------------------------------------
+flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp
+
+[2020-07-09 21:33:12,407 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-09 21:33:12,408 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
