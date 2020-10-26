@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="true" version="3.0"> 
+
+    <distributable/>
+<!--
+    <security-constraint>
+         <web-resource-collection>
+             <web-resource-name>HTTPs Test</web-resource-name>
+             <description>브라우저로 접속한 사용자가 JSP파일로 직접 접근할 수 없도록 한다.</description>
+             <url-pattern>*.jsp</url-pattern>
+             <http-method>GET</http-method>
+             <http-method>POST</http-method>
+         </web-resource-collection>
+         <auth-constraint>
+             <role-name>nobody</role-name>
+         </auth-constraint>
+         <user-data-constraint>
+             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+         </user-data-constraint>
+    </security-constraint>
+-->
+
+    <servlet>
+        <servlet-name>Log4jTestServlet</servlet-name>
+        <servlet-class>servlets.Log4jTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Log4jTestServlet</servlet-name>
+        <url-pattern>/Log4jTestServlet</url-pattern>
+    </servlet-mapping>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error/404.html</location>
+    </error-page>
+
+</web-app>

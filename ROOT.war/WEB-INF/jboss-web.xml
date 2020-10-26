@@ -1,0 +1,10 @@
+<jboss-web>
+
+    <replication-config>
+        <replication-trigger>SET_AND_GET</replication-trigger>
+        <replication-granularity>SESSION</replication-granularity>
+    </replication-config>
+
+    <context-root>/</context-root>
+
+</jboss-web>
