@@ -1,0 +1,10 @@
+[2020-07-11 14:50:27,796 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 7203 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-07-11 14:50:27,801 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-11 14:50:30,092 INFO c.s.j.m.Application.logStarted] Started Application in 2.685 seconds (JVM running for 3.421)
+[2020-07-11 14:50:42,624 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-11 14:50:42,633 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-11 14:50:42,636 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-11 14:50:51,818 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-11 14:50:51,819 INFO c.s.j.u.Command.run] result:Stopping flask_app ...     Stopping flask_app ... done    Removing flask_app ...     Removing flask_app ... done    Going to remove flask_app    Pulling flask ...     Pulling flask ... error        ERROR: for flask  Get http://localhost:6000/v2/: dial tcp 127.0.0.1:6000: connect: connection refused    Get http://localhost:6000/v2/: dial tcp 127.0.0.1:6000: connect: connection refused    Creating flask_app ...     Creating flask_app ... done      Name                 Command               State               Ports                 -----------------------------------------------------------------------------------    flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp    Attaching to flask_app    flask_app | [2020-07-11 05:50:50 +0000] [1] [INFO] Starting gunicorn 20.0.4    flask_app | [2020-07-11 05:50:50 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)    flask_app | [2020-07-11 05:50:50 +0000] [1] [INFO] Using worker: sync    flask_app | [2020-07-11 05:50:50 +0000] [12] [INFO] Booting worker with pid: 12    
+[2020-07-11 14:50:51,819 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-11 14:50:51,820 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success

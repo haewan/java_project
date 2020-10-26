@@ -1,0 +1,12 @@
+[2020-07-12 18:59:33,511 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 2916 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-07-12 18:59:33,517 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
+[2020-07-12 18:59:35,976 INFO c.s.j.m.Application.logStarted] Started Application in 2.999 seconds (JVM running for 3.842)
+[2020-07-12 19:03:23,901 INFO c.s.j.c.Shellcontroller.postRequest] ShellName:docker-compose.sh
+[2020-07-12 19:03:23,906 INFO c.s.j.u.Command.run] TIMEOUT: 15000
+[2020-07-12 19:03:23,908 INFO c.s.j.u.Command.run] PATH: /maum/nexus_nlp/docker-build-example/docker-compose/bin
+[2020-07-12 19:03:33,192 INFO c.s.j.u.Command.run] exitCode:0
+[2020-07-12 19:03:33,194 INFO c.s.j.u.Command.run] result:Removing flask_app ...     Removing flask_app ... done    Going to remove flask_app    Pulling flask ...     Pulling flask ... error        ERROR: for flask  Get http://localhost:6000/v2/: dial tcp 127.0.0.1:6000: connect: connection refused    Get http://localhost:6000/v2/: dial tcp 127.0.0.1:6000: connect: connection refused    Creating flask_app ...     Creating flask_app ... done      Name                 Command               State               Ports                 -----------------------------------------------------------------------------------    flask_app   gunicorn -w 1 -b 0.0.0.0:8 ...   Up      22/tcp, 0.0.0.0:8000->8000/tcp    Attaching to flask_app    flask_app | [2020-07-12 10:03:32 +0000] [1] [INFO] Starting gunicorn 20.0.4    flask_app | [2020-07-12 10:03:32 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)    flask_app | [2020-07-12 10:03:32 +0000] [1] [INFO] Using worker: sync    flask_app | [2020-07-12 10:03:32 +0000] [8] [INFO] Booting worker with pid: 8    
+[2020-07-12 19:03:33,194 INFO c.s.j.c.Shellcontroller.postRequest] exitCode: true
+[2020-07-12 19:03:33,194 INFO c.s.j.c.Shellcontroller.postRequest] docker-compose execute success
+[2020-07-12 20:02:04,172 INFO c.s.j.m.Application.logStarting] Starting Application v1.0-SNAPSHOT on haewan-ThinkPad-S2 with PID 7338 (/root/IdeaProjects/JAGENT/target/JAGENT-1.0-SNAPSHOT.jar started by root in /root/IdeaProjects/JAGENT/target)
+[2020-07-12 20:02:04,177 INFO c.s.j.m.Application.logStartupProfileInfo] No active profile set, falling back to default profiles: default
